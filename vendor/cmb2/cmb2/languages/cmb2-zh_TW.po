@@ -1,0 +1,736 @@
+# Copyright (C) 2016 WebDevStudios
+# This file is distributed under the same license as the CMB2 package.
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: CMB2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/cmb2\n"
+"POT-Creation-Date: 2019-07-26 13:03+0800\n"
+"PO-Revision-Date: 2019-07-26 13:05+0800\n"
+"Last-Translator: Justin Sternberg <me@jtsternberg.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/wp-translations/"
+"cmb2/language/zh_TW/)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: example-functions.php:117
+msgid "Test Metabox"
+msgstr "範例自訂欄位"
+
+#: example-functions.php:150 example-functions.php:490
+msgid "Test Text"
+msgstr "範例文字輸入框"
+
+#: example-functions.php:151 example-functions.php:164
+#: example-functions.php:177 example-functions.php:184
+#: example-functions.php:197 example-functions.php:205
+#: example-functions.php:214 example-functions.php:222
+#: example-functions.php:237 example-functions.php:245
+#: example-functions.php:253 example-functions.php:270
+#: example-functions.php:279 example-functions.php:295
+#: example-functions.php:302 example-functions.php:309
+#: example-functions.php:334 example-functions.php:347
+#: example-functions.php:360 example-functions.php:372
+#: example-functions.php:381 example-functions.php:389
+#: example-functions.php:398 example-functions.php:405
+#: example-functions.php:419 example-functions.php:491
+#: example-functions.php:583 example-functions.php:591
+#: example-functions.php:598 example-functions.php:605
+#: example-functions.php:612 example-functions.php:619
+#: example-functions.php:626 example-functions.php:653
+#: example-functions.php:661 example-functions.php:668
+#: example-functions.php:717
+msgid "field description (optional)"
+msgstr "欄位說明(選填)"
+
+#: example-functions.php:163
+msgid "Test Text Small"
+msgstr "範例文字輸入框-小"
+
+#: example-functions.php:176
+msgid "Test Text Medium"
+msgstr "範例文字輸入框-中"
+
+#: example-functions.php:183
+msgid "Read-only Disabled Field"
+msgstr ""
+
+#: example-functions.php:187
+msgid "Hey there, I'm a read-only field"
+msgstr ""
+
+#: example-functions.php:196
+msgid "Custom Rendered Field"
+msgstr "自訂欄位"
+
+#: example-functions.php:204
+msgid "Website URL"
+msgstr "網站位址"
+
+#: example-functions.php:213
+msgid "Test Text Email"
+msgstr "範例文字輸入框-Email"
+
+#: example-functions.php:221
+msgid "Test Time"
+msgstr "範例時間"
+
+#: example-functions.php:229 example-functions.php:230
+msgid "Time zone"
+msgstr "時區"
+
+#: example-functions.php:236
+msgid "Test Date Picker"
+msgstr "範例日期選擇器"
+
+#: example-functions.php:244
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr "範例日期選擇器(UNIX timestamp)"
+
+#: example-functions.php:252
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr "範例日期時間選擇氣(UNIX timestamp)"
+
+#: example-functions.php:269
+msgid "Test Money"
+msgstr "範例貨幣"
+
+#: example-functions.php:278
+msgid "Test Color Picker"
+msgstr "範例顏色選擇器"
+
+#: example-functions.php:294
+msgid "Test Text Area"
+msgstr "範例文字區塊"
+
+#: example-functions.php:301
+msgid "Test Text Area Small"
+msgstr "範例文字區塊-小"
+
+#: example-functions.php:308
+msgid "Test Text Area for Code"
+msgstr "範例程式文字區塊"
+
+#: example-functions.php:326
+msgid "Test Title Weeeee"
+msgstr "範例標題"
+
+#: example-functions.php:327
+msgid "This is a title description"
+msgstr "這是標題說明"
+
+#: example-functions.php:333
+msgid "Test Select"
+msgstr "範例下拉選單"
+
+#: example-functions.php:339 example-functions.php:352
+#: example-functions.php:364
+msgid "Option One"
+msgstr "選項一"
+
+#: example-functions.php:340 example-functions.php:353
+#: example-functions.php:365
+msgid "Option Two"
+msgstr "選項二"
+
+#: example-functions.php:341 example-functions.php:354
+#: example-functions.php:366
+msgid "Option Three"
+msgstr "選項三"
+
+#: example-functions.php:346
+msgid "Test Radio inline"
+msgstr "範例行內單選按鈕"
+
+#: example-functions.php:359
+msgid "Test Radio"
+msgstr "範例單選按鈕"
+
+#: example-functions.php:371
+msgid "Test Taxonomy Radio"
+msgstr "範例分類單選按鈕"
+
+#: example-functions.php:380
+msgid "Test Taxonomy Select"
+msgstr "範例分類下拉選單"
+
+#: example-functions.php:388
+msgid "Test Taxonomy Multi Checkbox"
+msgstr "範例分類多選方塊"
+
+#: example-functions.php:397
+msgid "Test Checkbox"
+msgstr "範例核取方塊"
+
+#: example-functions.php:404
+msgid "Test Multi Checkbox"
+msgstr "範例多選方塊"
+
+#: example-functions.php:410
+msgid "Check One"
+msgstr "選項一"
+
+#: example-functions.php:411
+msgid "Check Two"
+msgstr "選項二"
+
+#: example-functions.php:412
+msgid "Check Three"
+msgstr "選項三"
+
+#: example-functions.php:418
+msgid "Test wysiwyg"
+msgstr "範例所見即所得編輯器"
+
+#: example-functions.php:428
+msgid "Test Image"
+msgstr "範例圖片"
+
+#: example-functions.php:429
+msgid "Upload an image or enter a URL."
+msgstr "上傳圖片或是輸入網址。"
+
+#: example-functions.php:435
+msgid "Multiple Files"
+msgstr "多筆檔案"
+
+#: example-functions.php:436
+msgid "Upload or add multiple images/attachments."
+msgstr "上傳或新增多筆檔案。"
+
+#: example-functions.php:443
+msgid "oEmbed"
+msgstr "嵌入"
+
+#: example-functions.php:446
+#, php-format
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at %s."
+msgstr ""
+"輸入 youtbe, twitter 或是 instagram 的網址。其他支援的第三方服務請參考 %s。"
+
+#: example-functions.php:479
+msgid "About Page Metabox"
+msgstr "關於頁面自訂欄位"
+
+#: example-functions.php:510
+msgid "Repeating Field Group"
+msgstr "重複欄位"
+
+#: example-functions.php:518
+msgid "Generates reusable form entries"
+msgstr "從項目中新增可重用"
+
+#: example-functions.php:520
+msgid "Entry {#}"
+msgstr "項目 {#}"
+
+#: example-functions.php:521
+msgid "Add Another Entry"
+msgstr "新增其他項目"
+
+#: example-functions.php:522
+msgid "Remove Entry"
+msgstr "移除項目"
+
+#: example-functions.php:536
+msgid "Entry Title"
+msgstr "項目標題"
+
+#: example-functions.php:543
+msgid "Description"
+msgstr "說明"
+
+#: example-functions.php:544
+msgid "Write a short description for this entry"
+msgstr "項目簡短描述"
+
+#: example-functions.php:550
+msgid "Entry Image"
+msgstr "項目圖片"
+
+#: example-functions.php:556
+msgid "Image Caption"
+msgstr "圖片說明"
+
+#: example-functions.php:575
+msgid "User Profile Metabox"
+msgstr "使用者檔案自訂欄位"
+
+#: example-functions.php:582 example-functions.php:652
+msgid "Extra Info"
+msgstr "其他資訊"
+
+#: example-functions.php:590
+msgid "Avatar"
+msgstr "大頭照"
+
+#: example-functions.php:597
+msgid "Facebook URL"
+msgstr "Facebook 連結"
+
+#: example-functions.php:604
+msgid "Twitter URL"
+msgstr "Twitter 連結"
+
+#: example-functions.php:611
+msgid "Google+ URL"
+msgstr "Google+ 連結"
+
+#: example-functions.php:618
+msgid "Linkedin URL"
+msgstr "Linkedin 連結"
+
+#: example-functions.php:625
+msgid "User Field"
+msgstr "使用者欄位"
+
+#: example-functions.php:645
+msgid "Category Metabox"
+msgstr "分類自訂欄位"
+
+#: example-functions.php:660
+msgid "Term Image"
+msgstr "分類圖片"
+
+#: example-functions.php:667
+msgid "Arbitrary Term Field"
+msgstr ""
+
+#: example-functions.php:686
+msgid "Theme Options"
+msgstr "主題選項"
+
+#: example-functions.php:716
+msgid "Site Background Color"
+msgstr "網站背景顏色"
+
+#: example-functions.php:753
+#, php-format
+msgid "%s &mdash; Updated!"
+msgstr ""
+
+#: example-functions.php:787
+msgid "REST Test Box"
+msgstr ""
+
+#: example-functions.php:796
+msgid "REST Test Text"
+msgstr "REST 範例文字輸入框"
+
+#: example-functions.php:797
+msgid "Will show in the REST API for this box and for pages."
+msgstr ""
+
+#: example-functions.php:803
+msgid "REST Editable Test Text"
+msgstr ""
+
+#: example-functions.php:804
+msgid "Will show in REST API \"editable\" contexts only (`POST` requests)."
+msgstr ""
+
+#: includes/CMB2.php:199
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr "ID 參數為自訂欄位設定的必填值。"
+
+#: includes/CMB2.php:603
+msgid "Click to toggle"
+msgstr "點擊切換"
+
+#: includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr "請再試一次"
+
+#: includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr "移除嵌入"
+
+#: includes/CMB2_Ajax.php:189 includes/helper-functions.php:107
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr "%1$s 沒有嵌入的內容，了解更多 %2$s。"
+
+#: includes/CMB2_Base.php:422
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%2$s\" "
+"parameter."
+msgstr ""
+
+#: includes/CMB2_Base.php:426
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%2$s\" parameter."
+msgstr ""
+
+#: includes/CMB2_Base.php:456
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+
+#: includes/CMB2_Base.php:458
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+
+#: includes/CMB2_Base.php:491 includes/CMB2_Hookup_Base.php:102
+#: includes/CMB2_Options.php:247 includes/CMB2_Options_Hookup.php:357
+#: includes/types/CMB2_Type_Base.php:173
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr ""
+
+#: includes/CMB2_Base.php:509 includes/types/CMB2_Type_Base.php:157
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr ""
+
+#: includes/CMB2_Field.php:1415
+msgid "Add Group"
+msgstr "新增群組"
+
+#: includes/CMB2_Field.php:1416
+msgid "Remove Group"
+msgstr "移除群組"
+
+#: includes/CMB2_Field.php:1448 includes/CMB2_Field.php:1452
+msgid "None"
+msgstr "無"
+
+#: includes/CMB2_Field.php:1563
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr "很抱歉，此欄位沒有指定 cmb_id。"
+
+#: includes/CMB2_Field_Display.php:432 includes/CMB2_JS.php:230
+#: includes/types/CMB2_Type_File_Base.php:79
+msgid "File:"
+msgstr "檔案："
+
+#: includes/CMB2_Hookup_Base.php:44
+#, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr ""
+
+#: includes/CMB2_JS.php:165 includes/CMB2_JS.php:210
+msgid "Clear"
+msgstr "清除"
+
+#: includes/CMB2_JS.php:166
+msgid "Default"
+msgstr "預設"
+
+#: includes/CMB2_JS.php:167
+msgid "Select Color"
+msgstr "選擇顏色"
+
+#: includes/CMB2_JS.php:168
+msgid "Current Color"
+msgstr "目前顏色"
+
+#: includes/CMB2_JS.php:200
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr "mm/dd/yy"
+
+#: includes/CMB2_JS.php:201
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr "星期日、星期一、星期二、星期三、星期四、星期五、星期六"
+
+#: includes/CMB2_JS.php:202
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr "日、一、二、三、四、五、六"
+
+#: includes/CMB2_JS.php:203
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr "日、一、二、三、四、五、六"
+
+#: includes/CMB2_JS.php:204
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+"一月、二月、三月、四月、五月、六月、七月、八月、九月、十月、十一月、十二月"
+
+#: includes/CMB2_JS.php:205
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+"一月、二月、三月、四月、五月、六月、七月、八月、九月、十月、十一月、十二月"
+
+#: includes/CMB2_JS.php:206
+msgid "Next"
+msgstr "下一個"
+
+#: includes/CMB2_JS.php:207
+msgid "Prev"
+msgstr "上一個"
+
+#: includes/CMB2_JS.php:208
+msgid "Today"
+msgstr "今天"
+
+#: includes/CMB2_JS.php:209 includes/CMB2_JS.php:219
+msgid "Done"
+msgstr "完成"
+
+#: includes/CMB2_JS.php:213
+msgid "Choose Time"
+msgstr "選擇時間"
+
+#: includes/CMB2_JS.php:214
+msgid "Time"
+msgstr "時間"
+
+#: includes/CMB2_JS.php:215
+msgid "Hour"
+msgstr "小時"
+
+#: includes/CMB2_JS.php:216
+msgid "Minute"
+msgstr "分鐘"
+
+#: includes/CMB2_JS.php:217
+msgid "Second"
+msgstr "秒"
+
+#: includes/CMB2_JS.php:218
+msgid "Now"
+msgstr "現在"
+
+#: includes/CMB2_JS.php:220
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr "hh:mm TT"
+
+#: includes/CMB2_JS.php:226
+msgid "Use this file"
+msgstr "使用此檔案"
+
+#: includes/CMB2_JS.php:227
+msgid "Use these files"
+msgstr "使用此檔案"
+
+#: includes/CMB2_JS.php:228 includes/types/CMB2_Type_File_Base.php:64
+msgid "Remove Image"
+msgstr "移除圖片"
+
+#: includes/CMB2_JS.php:229 includes/CMB2_Types.php:406
+#: includes/types/CMB2_Type_File_Base.php:84
+msgid "Remove"
+msgstr "移除"
+
+#: includes/CMB2_JS.php:231 includes/types/CMB2_Type_File_Base.php:82
+msgid "Download"
+msgstr "下載"
+
+#: includes/CMB2_JS.php:232
+msgid "Select / Deselect All"
+msgstr "全選 / 全不選"
+
+#: includes/CMB2_Options_Hookup.php:139
+msgid "Nothing to update."
+msgstr "無更新項目。"
+
+#: includes/CMB2_Options_Hookup.php:143
+msgid "Settings updated."
+msgstr "變更已儲存。"
+
+#: includes/CMB2_Types.php:226
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+
+#: includes/CMB2_Types.php:344
+msgid "Add Row"
+msgstr "新增列"
+
+#: includes/CMB2_Types.php:406
+msgid "Remove Row"
+msgstr "移除列"
+
+#: includes/CMB2_hookup.php:182
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+
+#: includes/CMB2_hookup.php:186
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr "分類欄位區塊需設定 ‘taxonomies’ 參數。"
+
+#: includes/CMB2_hookup.php:466
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: includes/helper-functions.php:307
+msgid "Save"
+msgstr "儲存"
+
+#: includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller.php:385
+msgid "The id for the object."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr ""
+
+#: includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr ""
+
+#: includes/shim/WP_REST_Controller.php:25
+#, php-format
+msgid "Method '%s' must be overridden."
+msgstr ""
+
+#: includes/shim/WP_REST_Controller.php:35
+#: includes/shim/WP_REST_Controller.php:47
+#: includes/shim/WP_REST_Controller.php:59
+#: includes/shim/WP_REST_Controller.php:71
+#: includes/shim/WP_REST_Controller.php:83
+#: includes/shim/WP_REST_Controller.php:95
+#: includes/shim/WP_REST_Controller.php:107
+#: includes/shim/WP_REST_Controller.php:119
+#: includes/shim/WP_REST_Controller.php:131
+#: includes/shim/WP_REST_Controller.php:143
+#: includes/shim/WP_REST_Controller.php:155
+#: includes/shim/WP_REST_Controller.php:168
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+
+#: includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr ""
+
+#: includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr "新增或上傳檔案"
+
+#: includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr "新增或上傳檔案"
+
+#: includes/types/CMB2_Type_Taxonomy_Base.php:115
+msgid "No terms"
+msgstr "沒有分類"
+
+#~ msgid "No oEmbed Results Found for %s. View more info at"
+#~ msgstr "%s 沒有嵌入的內容，了解更多"
+
+#~ msgid "CMB2"
+#~ msgstr "CMB2"
+
+#~ msgid "https://github.com/CMB2/CMB2"
+#~ msgstr "https://github.com/CMB2/CMB2"
+
+#~ msgid ""
+#~ "CMB2 will create metaboxes and forms with custom fields that will blow "
+#~ "your mind."
+#~ msgstr "CMB2 提供客製化欄位來建立你的自訂欄位以及表單。"
+
+#~ msgid "WebDevStudios"
+#~ msgstr "WebDevStudios"
+
+#~ msgid "http://webdevstudios.com"
+#~ msgstr "http://webdevstudios.com"
