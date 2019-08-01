@@ -1,0 +1,13 @@
+{
+    "name": "oberonlai/media-with-ftp",
+    "description": "media with ftp composer",
+    "authors": [
+        {
+            "name": "Oberon Lai",
+            "email": "m615926@gmail.com"
+        }
+    ],
+    "require": {
+        "cmb2/cmb2": "^2.6"
+    }
+}
