@@ -1,4 +1,4 @@
-# Copyright (C) 2019 Pontus Abrahamsson / Oberon Lai
+# Copyright (C) 2019 Oberon Lai
 # This file is distributed under the same license as the Media with FTP plugin.
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-07-26T04:36:44+00:00\n"
+"POT-Creation-Date: 2019-08-02T09:57:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.2.0\n"
 "X-Domain: media-with-ftp\n"
@@ -21,16 +21,19 @@ msgid "Media with FTP"
 msgstr ""
 
 #. Plugin URI of the plugin
-#. Author URI of the plugin
-msgid "https://oberonlai.blog"
+msgid "https://oberonlai.blog/media-with-ftp/"
 msgstr ""
 
 #. Description of the plugin
-msgid "Let's you upload images to ftp-server and remove the upload on the local machine."
+msgid "Let's you upload images to ftp-server and remove the uploads in the WordPress Media Library."
 msgstr ""
 
 #. Author of the plugin
-msgid "Pontus Abrahamsson / Oberon Lai"
+msgid "Oberon Lai"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://oberonlai.blog"
 msgstr ""
 
 #: admin/class-media-with-ftp-admin.php:122
@@ -38,7 +41,7 @@ msgid "FTP Host Name"
 msgstr ""
 
 #: admin/class-media-with-ftp-admin.php:123
-msgid "The ftp-server hostname, ip or hostname."
+msgid "This is the FTP server hostname. It is usually used IP address or host URL."
 msgstr ""
 
 #: admin/class-media-with-ftp-admin.php:127
@@ -50,7 +53,7 @@ msgid "FTP Port"
 msgstr ""
 
 #: admin/class-media-with-ftp-admin.php:132
-msgid "The ftp-server port (of type int)"
+msgid "This is the port number of connection the FTP server. The default is 21. DO NOT change it if you have no idea about protocol port."
 msgstr ""
 
 #: admin/class-media-with-ftp-admin.php:143
@@ -58,7 +61,7 @@ msgid "FTP Username"
 msgstr ""
 
 #: admin/class-media-with-ftp-admin.php:144
-msgid "The ftp-user"
+msgid "This is the username of connecting the FTP Server."
 msgstr ""
 
 #: admin/class-media-with-ftp-admin.php:149
@@ -66,21 +69,13 @@ msgid "FTP Password"
 msgstr ""
 
 #: admin/class-media-with-ftp-admin.php:150
-msgid "The ftp-password"
+msgid "This is the password of connecting the FTP Server."
 msgstr ""
 
 #: admin/class-media-with-ftp-admin.php:158
-msgid "FTP Root Path"
+msgid "FTP Image URL"
 msgstr ""
 
 #: admin/class-media-with-ftp-admin.php:159
-msgid "This have to be a pointed domain or subdomain to the root of the uploads"
-msgstr ""
-
-#: admin/class-media-with-ftp-admin.php:167
-msgid "FTP Folder Path"
-msgstr ""
-
-#: admin/class-media-with-ftp-admin.php:168
-msgid "The ftp-path, default is root (/). Change here and add the dir on the ftp-server"
+msgid "This is the URL with folder structure of your FTP Server and also the path of your website's images."
 msgstr ""

@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              https://oberonlai.blog
- * @since             1.0.0
+ * @since             1.0.1
  * @package           Media_With_Ftp
  *
  * @wordpress-plugin
  * Plugin Name:       Media with FTP
  * Plugin URI:        https://oberonlai.blog/media-with-ftp/
  * Description:       Let's you upload images to ftp-server and remove the uploads in the WordPress Media Library.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Oberon Lai
  * Author URI:        https://oberonlai.blog
  * License:           GPL-2.0+
@@ -30,8 +30,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-require_once plugin_dir_path( __FILE__ ) . 'vendor/cmb2/cmb2/init.php';
-// require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php'; // why no work?
+require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
 /**
  * Currently plugin version.

@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit25200026546844521f7d6cc8b42425b5
 {
+    public static $files = array (
+        'b3895156e549d9de865027fc3f849b0b' => __DIR__ . '/..' . '/cmb2/cmb2/init.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {

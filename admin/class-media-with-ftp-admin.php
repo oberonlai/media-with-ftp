@@ -120,7 +120,7 @@ class Media_With_Ftp_Admin {
 		));
 		$cmb_options->add_field(array(
 			'name' => esc_html__(__('FTP Host Name', 'media-with-ftp')),
-			'desc' => esc_html__(__('The ftp-server hostname, ip or hostname.', 'media-with-ftp')),
+			'desc' => esc_html__(__('This is the FTP server hostname. It is usually used IP address or host URL.', 'media-with-ftp')),
 			'id' => 'mwf_hostname',
 			'type' => 'text',
 			'attributes' => array(
@@ -129,7 +129,7 @@ class Media_With_Ftp_Admin {
 		));
 		$cmb_options->add_field(array(
 			'name' => esc_html__(__('FTP Port', 'media-with-ftp')),
-			'desc' => esc_html__(__('The ftp-server port (of type int)', 'media-with-ftp')),
+			'desc' => esc_html__(__('This is the port number of connection the FTP server. The default is 21. DO NOT change it if you have no idea about protocol port.', 'media-with-ftp')),
 			'id' => 'mwf_port',
 			'type' => 'text',
 			'default' => '21',
@@ -141,13 +141,13 @@ class Media_With_Ftp_Admin {
 		));
 		$cmb_options->add_field(array(
 			'name' => esc_html__(__('FTP Username', 'media-with-ftp')),
-			'desc' => esc_html__(__('The ftp-user', 'media-with-ftp')),
+			'desc' => esc_html__(__('This is the username of connecting the FTP Server.', 'media-with-ftp')),
 			'id' => 'mwf_username',
 			'type' => 'text'
 		));
 		$cmb_options->add_field(array(
 			'name' => esc_html__(__('FTP Password', 'media-with-ftp')),
-			'desc' => esc_html__(__('The ftp-password', 'media-with-ftp')),
+			'desc' => esc_html__(__('This is the password of connecting the FTP Server.', 'media-with-ftp')),
 			'id' => 'mwf_password',
 			'type' => 'text',
 			'attributes' => array(
@@ -155,21 +155,21 @@ class Media_With_Ftp_Admin {
 			)
 		));
 		$cmb_options->add_field(array(
-			'name' => esc_html__(__('FTP Root Path', 'media-with-ftp')),
-			'desc' => esc_html__(__('This have to be a pointed domain or subdomain to the root of the uploads', 'media-with-ftp')),
+			'name' => esc_html__(__('FTP Image URL', 'media-with-ftp')),
+			'desc' => esc_html__(__('This is the URL with folder structure of your FTP Server and also the path of your website\'s images.', 'media-with-ftp')),
 			'id' => 'mwf_cdn',
 			'type' => 'text',
 			'attributes' => array(
-				'placeholder' => 'ex: https://img.domain.com'
+				'placeholder' => 'ex: https://img.yourdomain.com/img'
 			)
 		));
-		$cmb_options->add_field(array(
-			'name' => esc_html__(__('FTP Folder Path', 'media-with-ftp')),
-			'desc' => esc_html__(__('The ftp-path, default is root (/). Change here and add the dir on the ftp-server', 'media-with-ftp')),
-			'id' => 'mwf_path',
-			'default' => '/',
-			'type' => 'text'
-		));
+		// $cmb_options->add_field(array(
+		// 	'name' => esc_html__(__('FTP Folder Name', 'media-with-ftp')),
+		// 	'desc' => esc_html__(__('This is the folder name of your FTP Server to place the images. It is usually used the "/" if your FTP Root Path ', 'media-with-ftp')),
+		// 	'id' => 'mwf_path',
+		// 	'default' => '/',
+		// 	'type' => 'text'
+		// ));
 	}
 
 	/**
@@ -187,7 +187,7 @@ class Media_With_Ftp_Admin {
 			'user'	  =>	cmb2_get_option('mwf_options','mwf_username'), 				// * ftp-user
 			'pass'	  =>	cmb2_get_option('mwf_options','mwf_password'),	 				// * ftp-password
 			'cdn'     =>  cmb2_get_option('mwf_options','mwf_cdn'),			// * This have to be a pointed domain or subdomain to the root of the uploads
-			'path'	  =>	cmb2_get_option('mwf_options','mwf_path'),	 					// - ftp-path, default is root (/). Change here and add the dir on the ftp-server,
+			'path'	  =>	"/",	 					// - ftp-path, default is root (/). Change here and add the dir on the ftp-server,
 			'base'	  =>  wp_upload_dir()['basedir']  	// Basedir on local 
 		);
 
